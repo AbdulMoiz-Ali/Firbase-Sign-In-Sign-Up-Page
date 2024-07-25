@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <title>Modern Login Page</title>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <div id="sign-up" class="form-container sign-up">
+        <div class="form">
+          <h1>Create Account</h1>
+          <div class="social-icons">
+            <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://github.com/AbdulMoiz-Ali" class="icon"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href="#" class="icon"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+          </div>
+          <span>or use your email for registeration</span>
+          <input id="name" type="text" placeholder="Name" />
+          <input id="email" type="email" placeholder="Email" />
+          <input id="password" type="password" placeholder="Password" />
+          <button
+            style="
+              background-image: url(./Background\ black\ blue\ ux_ui.webp);
+              background-size: cover;
+            "
+            id="btn-up"
+          >
+            Sign Up
+          </button>
+        </div>
+      </div>
+      <div class="form-container sign-in">
+        <div class="form">
+          <h1>Sign In</h1>
+          <div class="social-icons">
+            <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://github.com/AbdulMoiz-Ali" class="icon"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href="#" class="icon"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+          </div>
+          <span>or use your email password</span>
+          <input id="emailin" type="email" placeholder="Email" />
+          <input id="passwordin" type="password" placeholder="Password" />
+          <a style="color: burlywood;font-weight: bolder;" href="#">Forget Your Password?</a>
+          <button
+            style="
+              background-image: url(./Background\ black\ blue\ ux_ui.webp);
+              background-size: cover;
+            "
+            id="btn-in"
+          >
+            Sign In
+          </button>
+        </div>
+      </div>
+      <div class="toggle-container">
+        <div class="toggle">
+          <div class="toggle-panel toggle-left">
+            <h1>Welcome Back!</h1>
+            <p>Enter your personal details to use all of site features</p>
+            <button class="hidden" id="login">Sign In</button>
+          </div>
+          <div class="toggle-panel toggle-right">
+            <h1>Hello, Friend!</h1>
+            <p>
+              Register with your personal details to use all of site features
+            </p>
+            <button class="hidden" id="register">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="newpage" style="display: none" id="visible">
+      <video class="vedio" autoplay muted loop id="myVideo">
+        <source src="./3678380-hd_1920_1080_30fps.mp4" type="video/mp4" />
+      </video>
+      <div class="content">
+        <h1>-: Wolcome TO Dashboard :-</h1>
+        <p>
+          Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat
+          phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum
+          maiestatis persequeris pro, pri ponderum tractatos ei. Id qui nemore
+          latine molestiae, ad mutat oblique delicatissimi pro.
+        </p>
+        <button id="btnlog">Log Out</button>
+      </div>
+    </div>
+    <script type="module" src="./app.js"></script>
+    <script src="./apps.js"></script>
+  </body>
+</html>
